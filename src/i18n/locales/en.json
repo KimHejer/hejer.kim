@@ -1,0 +1,13 @@
+{
+    "navigation": {
+        "home": "Home"
+    },
+
+    "home": {
+        "title": "Main Page"
+    },
+
+    "test": {
+        "title": "Test Page"
+    }
+}

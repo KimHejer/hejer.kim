@@ -1,0 +1,13 @@
+{
+    "navigation": {
+        "home": "Hjem"
+    },
+
+    "home": {
+        "title": "Hovedside"
+    },
+
+    "test": {
+        "title": "Testside"
+    }
+}
