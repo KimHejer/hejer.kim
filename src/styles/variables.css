@@ -1,30 +1,42 @@
 :root {
-    /* Colors */
-    --color-background: #111111;
-    --color-surface: #1a1a1a;
-    --color-text: #f5f5f5;
-    --color-text-secondary: #a0a0a0;
-    --color-primary: #5b8cff;
-    --color-border: #2a2a2a;
+  /* Colors */
+  --color-background: #050507;
+  --color-surface: #0d0d12;
+  --color-text: #f5f5f5;
+  --color-text-secondary: #a1a1a1;
+  --color-primary: #5b8cff;
 
+  /* Gradient */
+  --color-wave-horizon: #0068ff;
+  --color-wave: #b48901;
+  --color-wave-crest: #0061ff;
 
-/* Fonts */
---font-main: Inter, Arial, sans-serif;
+  /* UI */
+  --color-border: rgba(255, 255, 255, 0.1);
+  --color-navbar: rgba(8, 8, 12, 0.65);
 
-/* Font sizes */
---font-size-small: 0.875rem;
---font-size-normal: 1rem;
---font-size-large: 1.5rem;
---font-size-title: 3rem;
+  /* Fonts */
+  --font-main: "Inter", system-ui, sans-serif;
 
-/* Layout */
---content-width: 1200px;
+  /* Font sizes */
+  --font-size-small: 0.875rem;
+  --font-size-normal: 1rem;
+  --font-size-large: 1.5rem;
+  --font-size-title: 3rem;
+  --font-size-hero: clamp(3rem, 8vw, 7rem);
 
-/* Spacing */
---spacing-small: 0.5rem;
---spacing-medium: 1rem;
---spacing-large: 2rem;
+  /* Layout */
+  --content-width: 1200px;
+  --navbar-geight: 64px;
 
-/* Other */
---border-radius: 8px;
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 2rem;
+  --spacing-lg: 4rem;
+
+  /* Shape */
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
 }

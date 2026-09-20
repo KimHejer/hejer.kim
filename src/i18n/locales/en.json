@@ -1,13 +1,17 @@
 {
-    "navigation": {
-        "home": "Home"
-    },
+  "navigation": {
+    "home": "Home",
+    "test": "Test",
+    "brand": "hejer.kim",
+    "language": "Language"
+  },
 
-    "home": {
-        "title": "Main Page"
-    },
+  "home": {
+    "title": "Kim Hejer",
+    "subtitle": "Software developer"
+  },
 
-    "test": {
-        "title": "Test Page"
-    }
+  "test": {
+    "title": "Test Page"
+  }
 }

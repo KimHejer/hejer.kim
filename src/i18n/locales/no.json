@@ -1,13 +1,17 @@
 {
-    "navigation": {
-        "home": "Hjem"
-    },
+  "navigation": {
+    "home": "Hjem",
+    "test": "Test",
+    "brand": "hejer.kim",
+    "language": "Språk"
+  },
 
-    "home": {
-        "title": "Hovedside"
-    },
+  "home": {
+    "title": "Kim Hejer",
+    "subtitle": "Programvareutvikler"
+  },
 
-    "test": {
-        "title": "Testside"
-    }
+  "test": {
+    "title": "Testside"
+  }
 }
