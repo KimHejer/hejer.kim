@@ -1,64 +1,40 @@
-import { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
+import { LuLanguages } from "react-icons/lu";
 import { useTranslation } from "react-i18next";
 
 import logoIcon from "@/assets/logo.png";
-import "@/components/Navigation/Navigation.css";
+import "./Navigation.css";
 
 function Navigation() {
+  const { i18n } = useTranslation();
   const { t } = useTranslation();
-  const [scrolled, setScrolled] = useState(false);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      setScrolled(window.scrollY > 30);
-    };
+  const currentLanguage = i18n.language.startsWith("no") ? "NO" : "EN";
 
-    handleScroll();
+  const toggleLanguage = () => {
+    const newLanguage = currentLanguage === "EN" ? "no" : "en";
 
-    window.addEventListener("scroll", handleScroll, {
-      passive: true,
-    });
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
+    i18n.changeLanguage(newLanguage);
+    localStorage.setItem("language", newLanguage);
+  };
 
   return (
-    <header className={`navigation ${scrolled ? "navigation--scrolled" : ""}`}>
+    <header className="navigation">
       <nav className="navigation__inner">
-        <NavLink to="/" className="navigation__brand">
-          <img
-            src={logoIcon}
-            alt={t("navigation.brand")}
-            className="navigation__brand-icon"
-          />
+        <NavLink to="/" className="navigation__brand" aria-label="Home">
+          <img src={logoIcon} alt="" className="navigation__brand-icon" />
         </NavLink>
 
-        <div className="navigation__links">
-          <NavLink
-            to="/"
-            className={({ isActive }) =>
-              `navigation__link ${isActive ? "navigation__link--active" : ""}`
-            }
-          >
-            {t("navigation.home")}
-          </NavLink>
-
-          <NavLink
-            to="/test"
-            className={({ isActive }) =>
-              `navigation__link ${isActive ? "navigation__link--active" : ""}`
-            }
-          >
-            {t("navigation.test")}
-          </NavLink>
-
-          <button className="navigation__language" type="button">
-            {t("navigation.language")}
-          </button>
-        </div>
+        <button
+          type="button"
+          className="navigation__language"
+          onClick={toggleLanguage}
+          aria-label="Change Language"
+          title={t("navigation.changeLanguage")}
+        >
+          <LuLanguages />
+          <span>{currentLanguage}</span>
+        </button>
       </nav>
     </header>
   );

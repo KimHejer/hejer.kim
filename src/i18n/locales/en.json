@@ -8,7 +8,25 @@
 
   "home": {
     "title": "Kim Hejer",
-    "subtitle": "Software developer"
+    "subtitle": "Software developer",
+    "description": "I build software with a focus on full-stack development, data-driven applications, and machine learning.",
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "introduction1": "I'm a software developer with an interest in building practical and well-designed solutions across the stack. I enjoy working with everything from frontend interfaces and backend systems to data processing and machine learning. I like exploring new technologies, understanding how systems work, and applying what I learn by building real projects.",
+    "introduction2": "I'm currently a fourth-year Master's student in Computer Science at the Norwegian University of Science and Technology (NTNU), with a focus on software systems.",
+    "introduction3": "I particularly enjoy projects where I can combine software development with problem-solving in unfamiliar domains. Whether I'm working with web applications, data, machine learning, or experimenting with something new, I like taking an idea from an early concept to a solution that actually works."
+  },
+
+  "experience": {
+    "3lyd": {
+      "role": "Software Developer",
+      "period": "Bachelor Project & Summer Development · 2026",
+      "organizations": "Norwegian Wood Cluster · SINTEF · NTNU",
+      "description1": "As part of a three-person development team, I designed and developed the digital platform for 3LYD, an industry and research project focused on collecting and making acoustic data from timber buildings accessible and useful.",
+      "description2": "We built a full-stack web application for importing, structuring, validating, filtering, visualising and comparing acoustic measurements and detailed construction data. My work spanned both frontend and backend development, including the React and TypeScript interface, FastAPI services, PostgreSQL data model, Excel data-processing pipeline, administrative tools and containerised deployment with Docker.",
+      "description3": "The project involved close collaboration with SINTEF and Norwegian Wood Cluster to translate requirements from acoustic specialists into a practical software solution. Following the bachelor project, I continued developing and refining the platform during a summer position with Norwegian Wood Cluster."
+    }
   },
 
   "test": {

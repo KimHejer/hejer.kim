@@ -23,11 +23,11 @@
   --font-size-normal: 1rem;
   --font-size-large: 1.5rem;
   --font-size-title: 3rem;
-  --font-size-hero: clamp(3rem, 8vw, 7rem);
+  --font-size-hero: clamp(3rem, 5vw, 5.5rem);
 
   /* Layout */
   --content-width: 1200px;
-  --navbar-geight: 64px;
+  --navbar-height: 64px;
 
   /* Spacing */
   --spacing-xs: 0.5rem;

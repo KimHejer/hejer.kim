@@ -8,7 +8,26 @@
 
   "home": {
     "title": "Kim Hejer",
-    "subtitle": "Programvareutvikler"
+    "subtitle": "Programvareutvikler",
+    "description": "Jeg utvikler programvare med fokus på fullstack-utvikling, datadrevne applikasjoner og maskinlæring.",
+    "about": "Om meg",
+    "experience": "Erfaring",
+    "projects": "Prosjekter",
+    "introduction1": "Jeg er en programvareutvikler med interesse for å utvikle praktiske og gjennomtenkte løsninger på tvers av teknologistakken. Jeg liker å jobbe med alt fra brukergrensesnitt og backendsystemer til databehandling og maskinlæring. Jeg liker å utforske ny teknologi, forstå hvordan systemer fungerer og bruke det jeg lærer til å bygge reelle prosjekter.",
+
+    "introduction2": "Jeg går for tiden fjerde året på masterstudiet i datateknologi ved Norges teknisk-naturvitenskapelige universitet (NTNU), med fordypning i programvaresystemer.",
+
+    "introduction3": "Jeg liker spesielt prosjekter hvor jeg kan kombinere programvareutvikling med problemløsning innenfor nye og ukjente områder. Enten jeg jobber med webapplikasjoner, data, maskinlæring eller eksperimenterer med noe nytt, liker jeg å ta en idé fra et tidlig konsept til en løsning som faktisk fungerer."
+  },
+
+  "experience": {
+    "3lyd": {
+      "role": "Programvareutvikler",
+      "period": "Bachelorprosjekt og sommerjobb · 2026",
+      "description1": "Som del av et utviklingsteam på tre personer var jeg med på å designe og utvikle den digitale plattformen for 3LYD, et industri- og forskningsprosjekt med fokus på å samle inn og gjøre akustiske data fra trebygg tilgjengelige og nyttige.",
+      "description2": "Vi utviklet en fullstack-webapplikasjon for import, strukturering, validering, filtrering, visualisering og sammenligning av akustiske målinger og detaljert konstruksjonsdata. Arbeidet mitt omfattet både frontend- og backendutvikling, inkludert grensesnittet i React og TypeScript, FastAPI-tjenester, PostgreSQL-datamodellen, dataprosessering fra Excel, administrasjonsverktøy og containerbasert utrulling med Docker.",
+      "description3": "Prosjektet innebar tett samarbeid med SINTEF og Norwegian Wood Cluster for å omsette krav fra akustikkspesialister til en praktisk programvareløsning. Etter bachelorprosjektet fortsatte jeg med videreutvikling og forbedring av plattformen gjennom en sommerjobb hos Norwegian Wood Cluster."
+    }
   },
 
   "test": {
